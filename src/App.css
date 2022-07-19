@@ -1,0 +1,24 @@
+* {
+  background-color: black;
+
+}
+
+.App {
+  height: 100vh;
+  padding: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+
+  text-align: center;
+
+}
+
+.App-header {
+  color: rgb(228, 178, 255);
+  font-family: 'Mulish', sans-serif;
+  letter-spacing: 2px;
+}
+

@@ -1,0 +1,32 @@
+.button {
+    background-color: white;
+    font-size: 1.4em;
+    border-radius: 50px;
+}
+
+.button:hover {
+    background-color: rgb(180, 159, 193);
+}
+
+.button.double {
+    grid-column: span 2;
+}
+
+.button.triple {
+    grid-column: span 3;
+    background-color: rgb(192, 192, 192);
+}
+
+.button.triple:hover {
+    background-color: rgb(122, 122, 122);
+}
+
+.button.operation {
+    background-color: rgb(73, 50, 94);
+    color: white;
+}
+
+.button.operation:hover {
+    background-color: rgb(58, 35, 80);
+    color: white;
+}
