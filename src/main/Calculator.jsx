@@ -56,7 +56,7 @@ class Calculator extends Component {
                 displayValue: values[0], // store result.
                 operation: equals ? null : operation,
                 current: equals ? 0 : 1,
-                clearDisplay: !equals, // limpa display se não clicar no igual.
+                clearDisplay: !equals,
                 values
             })
         }
