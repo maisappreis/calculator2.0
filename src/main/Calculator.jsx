@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./Calculator.css";
-
 import Display from "../components/Display";
 import Button from "../components/Button";
+
 
 const initialState = {
     displayValue: "0",
@@ -44,7 +44,6 @@ class Calculator extends Component {
                 } else {
                     values[0] = values[0] + values[1] 
                 }
-
 
             } catch(e) {
                 values[0] = this.state.values[0]; 
